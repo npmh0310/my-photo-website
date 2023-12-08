@@ -1,0 +1,32 @@
+.header {
+  height: 72px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #d2ba91;
+  padding: 0 8%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-header {
+  min-width: 280px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  cursor: pointer;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  position: relative;
+  transition: text-transform 1s linear;
+}
+
+.title:hover{
+    text-decoration: line-through;
+    font-weight: 600;
+    
+}
